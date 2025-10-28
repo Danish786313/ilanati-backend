@@ -1,0 +1,41 @@
+{
+  "name": "ilanati",
+  "version": "1.0.0",
+  "description": "project that simlify digial ads",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danish786313/ilanati-backend.git"
+  },
+  "keywords": [
+    "ilanati"
+  ],
+  "author": "danish ahmad khan @Danish786313",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danish786313/ilanati-backend/issues"
+  },
+  "homepage": "https://github.com/Danish786313/ilanati-backend#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "joi": "^18.0.1",
+    "mongoose": "^8.19.2",
+    "nodemailer": "^7.0.10",
+    "winston": "^3.18.3",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
